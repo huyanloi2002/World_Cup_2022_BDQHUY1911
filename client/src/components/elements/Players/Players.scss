@@ -1,0 +1,243 @@
+.players_container{
+    background-color: var(--c-primary);
+    padding:3rem 5rem;
+    color: var(--c-background);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    .title_players{
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom:3rem;
+    }
+    .player_content{
+        width: 80%;
+        .filter_search{
+            width: 100%;
+            height: 150px;
+            .search{
+                width: 100%;
+                height: 30%;
+                display: flex;
+                justify-content: space-around;
+                gap: 0.5rem;
+                .input_search{
+                    width:100%;
+                    height: 100%;
+                    border-radius: 5px;
+                    border:none;
+                    outline: none;
+                    font-size: 18px;
+                    padding: 0 0.5rem;
+                }
+                // .btn_search{
+                //     width:10%;
+                //     height: 100%;
+                //     border-radius: 5px;
+                //     border:none;
+                //     outline: none;
+                //     cursor: pointer;
+                //     transition: 0.5s ;
+                //     color: black;
+                //     background-color: var(--c-accent);
+                //     &:hover{
+                //         opacity: 0.8;
+                //          transition: 0.5s ;
+                //      }
+                // }
+                // .btn_reset{
+                //     width:15%;
+                //     height: 100%;
+                //     border-radius: 5px;
+                //     border:none;
+                //     outline: none;
+                //     cursor: pointer;
+                //     transition: 0.5s ;
+                //     color: black;
+                //     background-color: coral;
+                //         &:hover{
+                //            opacity: 0.8;
+                //             transition: 0.5s ;
+                //         }
+                // }  
+               
+            }
+            .filter{
+                width: 100%;
+                margin: 0.5rem 0;
+                .select{
+                    display: flex;
+                    justify-content: space-around;
+                    height: 30px;
+                    .sl{
+                        width: 33%;
+                        border-radius: 5px;
+                        border:none;
+                        outline: none;
+                        font-size: 15px;
+                        padding: 0 0.5rem;
+                    }
+                    
+                }
+            }
+            .position{
+                margin: 0.5rem 0;
+                display: flex;
+                justify-content: center;
+                .btn_ps{
+                    border-radius: 5px;
+                    border:none;
+                    outline: none;
+                    cursor: pointer;
+                    width: 40px;
+                    margin: 0 0.3rem;
+                    background-color: white;
+                }
+                .active_red{
+                    background-color: red;
+                }
+                .active_green{
+                    background-color: green;
+                }
+                .active_blue{
+                    background-color: blue;
+                }
+                .active_orange{
+                    background-color: orange;
+                }
+                .active_qatar{
+                    background-color: var(--c-primary);
+                    border: 1px solid white;
+                    color:white;
+                }
+                
+            }
+        }
+        .list_players{
+            height: 450px;
+            border:3px solid var(--c-background);
+            width: 100%;
+            background-color: var(--c-background);
+            border-radius: 10px;
+            padding: 0.5rem 1rem;
+            overflow: scroll;
+            .card_player{
+                background-color: var(--c-primary);
+                width: 100%;
+                height: 100px;
+                border-radius:10px;
+                display: flex;
+                justify-content: space-between;
+                margin: 0.5rem auto;
+                padding: 0rem 2rem;
+                .ct_left{
+                    display: flex;
+                    align-items: center;
+                    width:55%;
+                    .position{
+                        display: flex;
+                        align-items: center;
+                        .icon{
+                            height: 30px;
+                            width: 10px;
+                            margin-right:0.5rem;
+                        }
+                        .red{
+                            background-color: red;
+                        }
+                        .green{
+                            background-color: green;
+                        }
+                        .blue{
+                            background-color: blue;
+                        }
+                        .orange{
+                            background-color: orange;
+                        }
+                    }  
+                    .avatar{
+                        display: flex;
+                        align-items: center;
+                        width: 100px;
+                        justify-content: center;
+                    }
+                    .content_player{
+                        .image_flag{
+                            img{
+                                margin: 0 0.5rem;
+                            }
+                        }
+                        .name{
+                            width: 200px;
+                        }
+                    }
+                }
+                .ct_right{
+                    display: flex;
+                    align-items: center;
+                    height: 100px;
+                    width:45%;
+                    .ul_one{
+                        width: 60%;
+                        b{
+                            color:var(--c-accent);
+                        }
+                        span{
+                            color: white
+                        }
+                        .text_pl{
+                            font-size: 13px;
+                        }
+                        .text_pl:nth-of-type(4){
+                            span:nth-of-type(1){
+                                margin-right: 0.5rem;
+                            }
+                        }
+                    }
+                    .ul_two{
+                        width:40%;
+                        display: flex;
+
+                        span{
+                            font-size: 20px;
+                            margin-left: 0.5rem;
+                        }
+                    }
+                   
+                }
+              
+            }
+        }
+        .list_players::-webkit-scrollbar{
+            display: none;
+        }
+        .page-link{
+            color:var(--c-primary)
+        }
+        .active-pagination{
+            background-color:var(--c-primary);
+            color:var(--c-background);
+            border: 1px solid var(--c-background);
+        }
+    }
+    
+}
+@media only screen and (max-width:  998px) {
+    .players_container{
+        padding:1rem 0;
+        .list_players{
+            .card_player{
+                .ct_right{
+                    justify-content: center;
+                    .ul_one{
+                       display: none;
+                    }
+                   
+                }
+              
+            }
+        }
+    }
+ }

@@ -1,0 +1,418 @@
+[
+    {
+        "name": "Qatar",
+        "code": "QAT",
+        "continent": "Middle East",
+        "assoc": {
+            "key": "qat",
+            "name": "Asociación de Fútbol de Catar",
+            "continental": {
+                "name": "Asian Football Confederation (AFC)",
+                "code": "AFC"
+            }
+        }
+    },
+    {
+        "name": "Ecuador",
+        "code": "ECU",
+        "continent": "South America",
+        "assoc": {
+            "key": "ecu",
+            "name": "Federación Ecuatoriana de Fútbol",
+            "continental": {
+                "name": "Confederación Sudamericana de Fútbol (CONMEBOL)",
+                "code": "CONMEBOL"
+            }
+        }
+    },
+    {
+        "name": "Senegal",
+        "code": "SEN",
+        "continent": "Africa",
+        "assoc": {
+            "key": "sen",
+            "name": "Fédération Sénégalaise de Football",
+            "continental": {
+                "name": "Confédération Africaine de Football (CAF)",
+                "code": "CAF"
+            }
+        }
+    },
+    {
+        "name": "Netherlands",
+        "code": "NLD",
+        "continent": "Europe",
+        "assoc": {
+            "key": "nld",
+            "name": "Royal Dutch Football Association",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "England",
+        "code": "ENG",
+        "continent": "Europe",
+        "assoc": {
+            "key": "eng",
+            "name": "The Football Association",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Iran",
+        "code": "IRN",
+        "continent": "Middle East",
+        "assoc": {
+            "key": "irn",
+            "name": "Football Federation Islamic Republic of Iran",
+            "continental": {
+                "name": "Asian Football Confederation (AFC)",
+                "code": "AFC"
+            }
+        }
+    },
+    {
+        "name": "United States",
+        "code": "USA",
+        "continent": "North America",
+        "assoc": {
+            "key": "usa",
+            "name": "United States Soccer Federation",
+            "continental": {
+                "name": "Confederation of North, Central American and Caribbean Association Football (CONCACAF)",
+                "code": "CONCACAF"
+            }
+        }
+    },
+    {
+        "name": "Wales",
+        "code": "WAL",
+        "continent": "Europe",
+        "assoc": {
+            "key": "wal",
+            "name": "Football Association of Wales",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Argentina",
+        "code": "ARG",
+        "continent": "South America",
+        "assoc": {
+            "key": "arg",
+            "name": "Asociación del Fútbol Argentino",
+            "continental": {
+                "name": "Confederación Sudamericana de Fútbol (CONMEBOL)",
+                "code": "CONMEBOL"
+            }
+        }
+    },
+    {
+        "name": "Saudi Arabia",
+        "code": "KSA",
+        "continent": "Middle East",
+        "assoc": {
+            "key": "ksa",
+            "name": "Saudi Arabian Football Federation",
+            "continental": {
+                "name": "Asian Football Confederation (AFC)",
+                "code": "AFC"
+            }
+        }
+    },
+    {
+        "name": "Mexico",
+        "code": "MEX",
+        "continent": "North America",
+        "assoc": {
+            "key": "mex",
+            "name": "Federación Mexicana de Fútbol Asociación",
+            "continental": {
+                "name": "Confederation of North, Central American and Caribbean Association Football (CONCACAF)",
+                "code": "CONCACAF"
+            }
+        }
+    },
+    {
+        "name": "Poland",
+        "code": "POL",
+        "continent": "Europe",
+        "assoc": {
+            "key": "pol",
+            "name": "Polski Związek Piłki Nożnej",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "France",
+        "code": "FRA",
+        "continent": "Europe",
+        "assoc": {
+            "key": "fra",
+            "name": "Fédération Française de Football",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Australia",
+        "code": "AUS",
+        "continent": "Pacific",
+        "assoc": {
+            "key": "aus",
+            "name": "Football Federation Australia",
+            "continental": {
+                "name": "Asian Football Confederation (AFC)",
+                "code": "AFC"
+            }
+        }
+    },
+    {
+        "name": "Denmark",
+        "code": "DEN",
+        "continent": "Europe",
+        "assoc": {
+            "key": "den",
+            "name": "Dansk Boldspil-Union",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Tunisia",
+        "code": "TUN",
+        "continent": "Africa",
+        "assoc": {
+            "key": "tun",
+            "name": "Fédération Tunisienne de Football",
+            "continental": {
+                "name": "Confédération Africaine de Football (CAF)",
+                "code": "CAF"
+            }
+        }
+    },
+    {
+        "name": "Spain",
+        "code": "ESP",
+        "continent": "Europe",
+        "assoc": {
+            "key": "esp",
+            "name": "Real Federación Española de Fútbol",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Costa Rica",
+        "code": "CRC",
+        "continent": "Central America",
+        "assoc": {
+            "key": "crc",
+            "name": "Federación Costarricense de Fútbol",
+            "continental": {
+                "name": "Confederation of North, Central American and Caribbean Association Football (CONCACAF)",
+                "code": "CONCACAF"
+            }
+        }
+    },
+    {
+        "name": "Germany",
+        "code": "GER",
+        "continent": "Europe",
+        "assoc": {
+            "key": "ger",
+            "name": "Deutscher Fußball-Bund",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Japan",
+        "code": "JPN",
+        "continent": "Asia",
+        "assoc": {
+            "key": "jpn",
+            "name": "Japan Football Association",
+            "continental": {
+                "name": "Asian Football Confederation (AFC)",
+                "code": "AFC"
+            }
+        }
+    },
+    {
+        "name": "Belgium",
+        "code": "BEL",
+        "continent": "Europe",
+        "assoc": {
+            "key": "bel",
+            "name": "Koninklijke Belgische Voetbalbond",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Canada",
+        "code": "CAN",
+        "continent": "North America",
+        "assoc": {
+            "key": "can",
+            "name": "Canadian Soccer Association",
+            "continental": {
+                "name": "Confederation of North, Central American and Caribbean Association Football (CONCACAF)",
+                "code": "CONCACAF"
+            }
+        }
+    },
+    {
+        "name": "Morocco",
+        "code": "MAR",
+        "continent": "Africa",
+        "assoc": {
+            "key": "mar",
+            "name": "Fédération Royale Marocaine de Football",
+            "continental": {
+                "name": "Confédération Africaine de Football (CAF)",
+                "code": "CAF"
+            }
+        }
+    },
+    {
+        "name": "Croatia",
+        "code": "CRO",
+        "continent": "Europe",
+        "assoc": {
+            "key": "cro",
+            "name": "Hrvatski Nogometni Savez",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Brazil",
+        "code": "BRA",
+        "continent": "South America",
+        "assoc": {
+            "key": "bra",
+            "name": "Confederação Brasileira de Futebol",
+            "continental": {
+                "name": "Confederación Sudamericana de Fútbol (CONMEBOL)",
+                "code": "CONMEBOL"
+            }
+        }
+    },
+    {
+        "name": "Serbia",
+        "code": "SRB",
+        "continent": "Europe",
+        "assoc": {
+            "key": "seb",
+            "name": "Football Association of Serbia",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Switzerland",
+        "code": "SUI",
+        "continent": "Europe",
+        "assoc": {
+            "key": "sui",
+            "name": "Association Suisse de Football",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Cameroon",
+        "code": "CMR",
+        "continent": "Africa",
+        "assoc": {
+            "key": "cmr",
+            "name": "Fédération Camerounaise de Football",
+            "continental": {
+                "name": "Confédération Africaine de Football (CAF)",
+                "code": "CAF"
+            }
+        }
+    },
+    {
+        "name": "Portugal",
+        "code": "POR",
+        "continent": "Europe",
+        "assoc": {
+            "key": "por",
+            "name": "Federação Portuguesa de Futebol",
+            "continental": {
+                "name": "Union of European Football Associations (UEFA)",
+                "code": "UEFA"
+            }
+        }
+    },
+    {
+        "name": "Ghana",
+        "code": "GHA",
+        "continent": "Africa",
+        "assoc": {
+            "key": "gha",
+            "name": "Ghana Football Association",
+            "continental": {
+                "name": "Confédération Africaine de Football (CAF)",
+                "code": "CAF"
+            }
+        }
+    },
+    {
+        "name": "Uruguay",
+        "code": "URU",
+        "continent": "South America",
+        "assoc": {
+            "key": "uru",
+            "name": "Asociación Uruguaya de Fútbol",
+            "continental": {
+                "name": "Confederación Sudamericana de Fútbol (CONMEBOL)",
+                "code": "CONMEBOL"
+            }
+        }
+    },
+    {
+        "name": "Korea Republic",
+        "code": "KOR",
+        "continent": "Asia",
+        "assoc": {
+            "key": "kor",
+            "name": "Korea Football Association",
+            "continental": {
+                "name": "Asian Football Confederation (AFC)",
+                "code": "AFC"
+            }
+        }
+    }
+]

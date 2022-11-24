@@ -1,0 +1,116 @@
+.match_schedule_ct{
+    background-color: var(--c-background);
+    padding: 0 3rem;
+    padding-bottom: 3rem;
+    .title_match_schedule{
+        text-align: center;
+        padding:1rem 0;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+    .match_schedule_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .matchday-content{
+            text-align: center;
+            height: 100%;
+            width: 100%;
+            margin:2rem;
+            .swiper-slide{
+                padding: 1rem;
+                span{
+                    cursor: pointer;
+                    transition:  0.3s;
+                    border:1px solid var(--c-primary);
+                    border-radius: 10px;
+                    &.active{
+                        background-color: var(--c-primary);
+                        transition:  0.3s;
+                        color:var(--c-background);
+                        border-radius: 10px;
+                    }
+                    &:hover{
+                        background-color: var(--c-primary);
+                        transition:  0.3s;
+                        color:var(--c-background);
+                        border-radius: 10px;
+                    }
+                }
+              
+            }
+        }
+        .loader-match{
+            height: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .match_schedule_box{
+                font-family: var(--ff-graphik-r);
+                width: 400px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin:1rem 3rem;
+                padding:1rem 0;
+                color:var(--c-background);
+                background-color: var(--c-primary);
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+               
+                cursor: pointer;
+                .match_schedule{
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    padding-top:1rem;
+                    .match{
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                        margin:0 2rem;
+                        flex-direction: column;
+                        #team{
+                            text-align: center;
+                            margin: 0.5rem 0;
+                        }
+                        #image{
+                            margin:0 1rem;
+    
+                        }
+                    }
+                    .score-content{
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: center;
+                        #score{
+                            font-size: 30px;
+                            margin:0 0.3rem;
+                        }
+                    }
+                }
+                .info{
+                    text-align: center;
+                    font-size: 13px;
+                }
+                .group{
+                    text-align: center;
+                    font-size: 13px;
+                }
+    
+               
+            }
+        }
+      
+    }
+
+
+@media only screen and (max-width:  998px) {
+    .match_schedule_box{
+        margin:1rem 1rem !important;
+
+    }
+}

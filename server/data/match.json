@@ -1,0 +1,169 @@
+{
+    "_id": {
+        "$oid": "634a3e4153bcd10ba0549995"
+    },
+    "name": "Match Day 3",
+    "date": {
+        "$date": {
+            "$numberLong": "1669075200000"
+        }
+    },
+    "matches": [
+        {
+            "score1": {
+                "$numberInt": "0"
+            },
+            "score2": {
+                "$numberInt": "0"
+            },
+            "timezone": "UTC+07:00",
+            "_id": {
+                "$oid": "634a6021184e740c4c5dc869"
+            },
+            "num": {
+                "$numberInt": "4"
+            },
+            "date": {
+                "$date": {
+                    "$numberLong": "1669075200000"
+                }
+            },
+            "time": "02:00",
+            "group": "Group B",
+            "stadium": {
+                "keyS": "ahmadbinalistadium",
+                "nameS": "Ahmad Bin Ali Stadium"
+            },
+            "city": "Umm Al Afaei, 20km west of central Doha",
+            "team1": {
+                "name1": "United States",
+                "code1": "USA",
+                "flag1": "https://res.cloudinary.com/buidoanquanghuy19112002/image/upload/v1665541546/worldcup2022/pvoeuvf2kzpkbg4zmx1g.jpg"
+            },
+            "team2": {
+                "name2": "Wales",
+                "code2": "WAL",
+                "flag2": "https://res.cloudinary.com/buidoanquanghuy19112002/image/upload/v1665541587/worldcup2022/inwjbawlg20aj1ap1lkb.jpg"
+            }
+        },
+        {
+            "score1": {
+                "$numberInt": "0"
+            },
+            "score2": {
+                "$numberInt": "0"
+            },
+            "timezone": "UTC+07:00",
+            "_id": {
+                "$oid": "634a566a184e740c4c5dc850"
+            },
+            "num": {
+                "$numberInt": "1"
+            },
+            "date": {
+                "$date": {
+                    "$numberLong": "1669075200000"
+                }
+            },
+            "time": "17:00",
+            "group": "Group C",
+            "stadium": {
+                "keyS": "lusailstadium",
+                "nameS": "Lusail Stadium"
+            },
+            "city": "Lusail City, 20km north of central Doha",
+            "team1": {
+                "name1": "Argentina",
+                "code1": "ARG",
+                "flag1": "https://res.cloudinary.com/buidoanquanghuy19112002/image/upload/v1665542662/worldcup2022/ftvyedahtkx8xcb6r8xx.jpg"
+            },
+            "team2": {
+                "name2": "Saudi Arabia",
+                "code2": "KSA",
+                "flag2": "https://res.cloudinary.com/buidoanquanghuy19112002/image/upload/v1665542755/worldcup2022/qucf1smh1bunmhpgjqyt.jpg"
+            }
+        },
+        {
+            "score1": {
+                "$numberInt": "0"
+            },
+            "score2": {
+                "$numberInt": "0"
+            },
+            "timezone": "UTC+07:00",
+            "_id": {
+                "$oid": "634a56c3184e740c4c5dc851"
+            },
+            "num": {
+                "$numberInt": "2"
+            },
+            "date": {
+                "$date": {
+                    "$numberLong": "1669075200000"
+                }
+            },
+            "time": "20:00",
+            "group": "Group D",
+            "stadium": {
+                "keyS": "educationcitystadium",
+                "nameS": "Education City Stadium"
+            },
+            "city": "Al Rayyan, 7km north-west of central Doha",
+            "team1": {
+                "name1": "Denmark",
+                "code1": "DEN",
+                "flag1": "https://res.cloudinary.com/buidoanquanghuy19112002/image/upload/v1665544313/worldcup2022/hok0r0pctthdbalykkk8.jpg"
+            },
+            "team2": {
+                "name2": "Tunisia",
+                "code2": "TUN",
+                "flag2": "https://res.cloudinary.com/buidoanquanghuy19112002/image/upload/v1665544374/worldcup2022/ndjqbd5rtvgajyytoqjh.jpg"
+            }
+        },
+        {
+            "score1": {
+                "$numberInt": "0"
+            },
+            "score2": {
+                "$numberInt": "0"
+            },
+            "timezone": "UTC+07:00",
+            "_id": {
+                "$oid": "634a5757184e740c4c5dc852"
+            },
+            "num": {
+                "$numberInt": "3"
+            },
+            "date": {
+                "$date": {
+                    "$numberLong": "1669075200000"
+                }
+            },
+            "time": "23:00",
+            "group": "Group C",
+            "stadium": {
+                "keyS": "stadium974",
+                "nameS": "Stadium 974"
+            },
+            "city": "Ras Abu Aboud, 10km east of central Doha",
+            "team1": {
+                "name1": "Mexico",
+                "code1": "MEX",
+                "flag1": "https://res.cloudinary.com/buidoanquanghuy19112002/image/upload/v1665542805/worldcup2022/witvgp0jjy1gsrk9kjpm.jpg"
+            },
+            "team2": {
+                "name2": "Poland",
+                "code2": "POL",
+                "flag2": "https://res.cloudinary.com/buidoanquanghuy19112002/image/upload/v1665542950/worldcup2022/vckmejyiy3jeyjqnqjjs.jpg"
+            }
+        }
+    ],
+    "createdAt": {
+        "$date": {
+            "$numberLong": "1665809985464"
+        }
+    },
+    "__v": {
+        "$numberInt": "5"
+    }
+}

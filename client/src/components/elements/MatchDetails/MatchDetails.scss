@@ -1,0 +1,447 @@
+.match_details_container{
+    .ct_top_match_dt{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--c-primary);
+        color:var(--c-background);
+        font-family: var(--ff-qatar);
+        .img_bg_fb{
+            margin: 0.5rem 0;
+        }
+        .matchday_dt{
+            font-size: 25px;
+            background-color: var(--c-background);
+            color: var(--c-primary);
+            padding: 0.5rem 0.8rem;
+            border-top-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+            margin: 0.5rem 0;
+
+        }
+        .date_time{
+            margin: 0.5rem 0;
+            text-align: center;
+            .d{
+                font-size: 20px;
+            }
+            .t{
+                font-size: 15px;
+            }
+        }
+        .team_details{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            .team_one_dt{
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                width: 40%;
+                .goal_score_ct{
+                    .ct_goal_score{
+                        display: flex;
+                        align-items: center;
+                        gap:0.5rem;
+                    }
+                }
+            }
+            .team_two_dt{
+                display: flex;
+                align-items: center;
+                width: 40%;
+                .goal_score_ct{
+                    .ct_goal_score{
+                        display: flex;
+                        align-items: center;
+                        gap:0.5rem;
+                    }
+                }
+            }
+            .country_dt{
+                #team_all_dt{
+                    width: 150px;
+                    height: 150px;
+                    border: 2px solid var(--c-background);
+                    margin:0.5rem 2rem ;
+                    border-top-left-radius: 30px;
+                    border-bottom-right-radius: 30px;
+                }
+            }
+          
+          
+            .name_team_dt{
+                text-align: center;
+                font-size: 20px;
+            }
+            .score_dt_m{
+                width: 10%;
+                height: 50px;
+                border: 2px solid var(--c-background);
+                border-radius: 10px;
+                .date_time{
+                    font-family: none;
+                    font-weight: bold;
+                }
+                .score_ct{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .sc{
+                        margin: 0.3rem;
+                        font-size: 25px;
+                    }
+                }
+              
+            }
+        }
+        .stadium_match_dt{
+            text-align: center;
+        }
+    }
+    .ct_middle_match_dt{
+        background-color: var(--c-background);
+        padding:0.5rem;
+        width: 100%;
+        height: 100%;
+        #team_details_all{
+            width: 45%;
+            height: 100%;
+            border: 2px solid var(--c-primary);
+            border-radius: 10px;
+            padding:0.5rem;
+            .logo_country{
+                width: 100%;
+                height: 50px;
+                display: flex;
+                justify-content: space-between;
+                .coach{
+                    display: flex;
+                    align-items: center;
+                    .avatar_coach{
+                        margin:0 0.5rem;
+                        .img_coach{
+                            border-radius: 50%;
+                            border:2px solid var(--c-primary)
+                        }         
+                    }
+                    .info_coach{
+                        .name_coach{
+                            font-weight: bold;
+                        }
+                        .squad{
+                            font-size: 13px;
+                            text-align: center;
+                            background-color: var(--c-primary);
+                            color:white;
+                            border-radius: 5px;
+                            padding:0.1rem 0;
+                        }
+                    }
+                }
+                .img_club{
+                    width: 50px;
+                   height: 50px;
+                }
+            }
+           
+        }
+        .name_dt_line_up{
+            color: var(--c-primary);
+            font-family: var(--ff-qatar);
+            text-align: center;
+            margin-top:1rem ;
+        }
+        .ct_line_up_dt{
+            display: flex;
+            justify-content: space-around;
+            .team_one_details{
+                text-align: right;
+                .line_up{
+                    margin:1rem 0;
+                    .title_lu{
+                        background-color: var(--c-primary);
+                        padding: 0.3rem;
+                        color: var(--c-background);
+                    }
+                    .content_player_lu{
+                        margin: 1rem;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .not_line{
+                            font-family: var(--ff-qatar);
+                        }
+                        .pos_lu{
+                            color:red;
+                            margin: 0 0.5rem;
+                        }
+                        .name_lu{
+                            margin: 0 0.5rem;
+                            width: 200px;
+                        }
+                        .avatar_lu{
+                            border-radius: 50%;
+                            border: 1px solid var(--c-primary);
+                        }
+                        .ct_card_and_inout{
+                            display: flex;
+                            gap:0.5rem;
+                            #ct_child{
+                                display: flex;
+                                gap:0.3rem;
+                                .ct_more{
+                                    display: flex;
+                                     font-size:13px;
+                                     align-items: center;
+                                     gap:0.2rem
+                                }
+                            }
+                        }
+                    }
+                }
+                .sub_line_up{
+                    margin:1rem 0;
+                    .title_sub_lu{
+                        background-color: var(--c-primary);
+                        padding: 0.3rem;
+                        color: var(--c-background);
+                    }
+                    .content_player_lu{
+                        margin: 1rem;
+                        display: flex;
+                        justify-content: flex-end;
+                        align-items: center;
+                        .not_line{
+                            font-family: var(--ff-qatar);
+                        }
+                        .pos_lu{
+                            color:red;
+                            margin: 0 0.5rem;
+                        }
+                        .name_lu{
+                            margin: 0 0.5rem;
+                            width: 200px;
+                        }
+                        .avatar_lu{
+                            border-radius: 50%;
+                            border: 1px solid var(--c-primary);
+                        }
+                        .ct_card_and_inout{
+                            display: flex;
+                            gap:0.5rem;
+                            #ct_child{
+                                display: flex;
+                                gap:0.3rem;
+                                .ct_more{
+                                    display: flex;
+                                     font-size:13px;
+                                     align-items: center;
+                                     gap:0.2rem
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .team_two_details{
+                text-align: left;
+                .line_up{
+                    margin:1rem 0;
+                    .title_lu{
+                        background-color: var(--c-primary);
+                        padding: 0.3rem;
+                        color: var(--c-background);
+                    }
+                    .content_player_lu{
+                        margin: 1rem;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        .not_line{
+                            font-family: var(--ff-qatar);
+                        }
+                        .pos_lu{
+                            color:red;
+                            margin: 0 0.5rem;
+
+                        }
+                        .name_lu{
+                            margin: 0 0.5rem;
+                            width: 200px;
+                        }
+                        .avatar_lu{
+                            border-radius: 50%;
+                            border: 1px solid var(--c-primary);
+                        }
+                        .ct_card_and_inout{
+                            display: flex;
+                            gap:0.5rem;
+                            #ct_child{
+                                display: flex;
+                                gap:0.3rem;
+                                .ct_more{
+                                    display: flex;
+                                     font-size:13px;
+                                     align-items: center;
+                                     gap:0.2rem
+                                }
+                            }
+                        }
+                    }
+                }
+                .sub_line_up{
+                    margin:1rem 0;
+                    .title_sub_lu{
+                        background-color: var(--c-primary);
+                        padding: 0.3rem;
+                        color: var(--c-background);
+                    }
+                    .content_player_lu{
+                        margin: 1rem;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        .not_line{
+                            font-family: var(--ff-qatar);
+                        }
+                        .pos_lu{
+                            color:red;
+                            margin: 0 0.5rem;
+
+                        }
+                        .name_lu{
+                            margin: 0 0.5rem;
+                            width: 200px;
+                        }
+                        .avatar_lu{
+                            border-radius: 50%;
+                            border: 1px solid var(--c-primary);
+                        }
+                        .ct_card_and_inout{
+                            display: flex;
+                            gap:0.5rem;
+                            #ct_child{
+                                display: flex;
+                                gap:0.3rem;
+                                .ct_more{
+                                    display: flex;
+                                     font-size:13px;
+                                     align-items: center;
+                                     gap:0.2rem
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+       
+    }
+    .ct_bottom_match_dt{
+        background-color: var(--c-primary);
+        padding:0.5rem;
+        width: 100%;
+        height: 100%;
+        color:var(--c-background);
+        .title_tskt{
+            font-family: var(--ff-qatar);
+            text-align: center;
+            width: 100%;
+        }
+        .name_teame_tskt{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            #tskt_name{
+                width: 200px;
+                margin: 0.3rem 2rem;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            .tskt_t1{
+                text-align: right;
+            }
+            .tskt_t2{
+                text-align: left;
+            }
+        }
+        .content_stats_tskt{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            #stats_tskt{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top:0.3rem;
+                .name_stats{
+                    width: 100%;
+                    text-align: center;
+                    font-size:15px;
+                }
+                .percent{
+                    width: 50%;
+                    height: 20px;
+                    display: flex;
+                    gap:2px;
+                    .ct_p1{
+                        width: 50%;
+                        height: 10px;
+                        display: flex;
+                        align-items: center;
+                        .number_percent{
+                            margin: 0 0.5rem;
+                        }
+                        .percent_1{
+                            border-radius: 5px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: flex-end;
+                            .pr_1{
+                                height: 10px;
+                                background-color: white;
+                                border-radius: 5px;
+                            }
+                        }
+                    }
+                   .ct_p2{
+                        width: 50%;
+                        height: 10px;
+                        display: flex;
+                        align-items: center;
+                        .number_percent{
+                            margin: 0 0.5rem;
+                        }
+                        .percent_2{
+                            border-radius: 5px;
+                            width: 100%;
+                            display: flex;
+                            justify-content: flex-start;
+                            .pr_2{
+                                height: 10px;
+                                background-color: white;
+                                border-radius: 5px;
+                            }
+                        }
+                   }
+                  
+                }
+            }
+          
+        }
+       }
+
+}
+@media only screen and (max-width:  998px) {
+    .match_details_container{
+        .ct_top_match_dt{
+            justify-content: flex-start !important;
+          
+        }
+    }
+ }

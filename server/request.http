@@ -1,0 +1,30 @@
+POST http://localhost:5000/user/register
+Content-Type: application/json
+
+{
+    "name":"huy",
+    "email":"huy@example.com",
+    "password":"123"
+}
+###
+POST http://localhost:5000/api/v1/match/details
+Content-Type: application/json
+
+{  
+    "matchesId": "634a673cc99c4b064871188a",
+    "playerId1":[
+        "636a200134cf9b0bccf02f85",
+        "636a212334cf9b0bccf02f86"
+    ],
+     "playerId2":[
+        "636a200134cf9b0bccf02f85",
+        "636a212334cf9b0bccf02f86"
+    ]
+}
+###
+
+GET http://localhost:5000/api/v1/coach?team1=Portugal&team2=Ghana
+
+{  
+  
+}

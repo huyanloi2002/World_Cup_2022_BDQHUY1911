@@ -1,0 +1,29 @@
+.navbar-content{
+    .navbar{
+        background-color: var(--c-background);
+        .logo{
+            margin: auto 1rem;
+        }
+        button{
+            outline: none !important;
+            border-radius: 50%;
+            padding: 0.5rem;
+            background-color: var(--c-primary);
+            transition: 0.3s;
+
+            &:hover{
+                background-color: var(--c-background);
+                border:1px solid var(--c-primary);
+                transition: 0.3s;
+                i{
+                    color:var(--c-primary);
+                }
+            }
+            i{
+                color:var(--c-background);
+            }
+        }
+
+    }
+}
+

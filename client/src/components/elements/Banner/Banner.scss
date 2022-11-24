@@ -1,0 +1,58 @@
+.intro_module{
+    transition: 0.3s all;
+    height: 100vh;
+    // background-color: var(--c-background);
+    .intro-module_bg{
+        position: relative;
+        height: 100%;
+        video{
+            transition: 1s ease-in-out;
+            -o-object-fit: cover;
+            object-fit: cover;
+            height: 100%;
+            width: 100%;       
+        }
+        .content-text{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            text-align: center;
+            width: 100%;
+            .title{
+                font-family: var(--ff-qatar);
+                font-weight: 900;
+                font-size: 5rem;
+                color: var(--c-primary);
+                text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            }
+            .countdown{
+                .title-countdown{
+                    font-family: var(--ff-qatar);
+                    font-weight: 900;
+                    font-size: 2rem;
+                    color:  var(--c-background);
+                    text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                }
+                .timer{
+                    font-family: var(--ff-qatar);
+                    font-weight: 900;
+                    font-size: 4rem;
+                    color:  var(--c-background);
+                    text-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+                    display: flex;
+                    justify-content: center;
+                    div{
+                        display: flex;
+                        flex-direction: column;
+                        margin:0 0.5rem;
+                        span{
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
